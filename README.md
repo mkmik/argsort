@@ -1,5 +1,5 @@
-[![](https://godoc.org/github.com/mmikulicic/argsort?status.svg)](http://godoc.org/github.com/mmikulicic/argsort)
-[![Go Report Card](https://goreportcard.com/badge/github.com/mmikulicic/argsort)](https://goreportcard.com/report/github.com/mmikulicic/argsort)
+[![](https://godoc.org/github.com/mkmik/argsort?status.svg)](http://godoc.org/github.com/mkmik/argsort)
+[![Go Report Card](https://goreportcard.com/badge/github.com/mkmik/argsort)](https://goreportcard.com/report/github.com/mkmik/argsort)
 
 # Argsort
 
