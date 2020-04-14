@@ -40,3 +40,27 @@ func ExampleSort() {
 	// [1 3 2 0]
 	// "a" "b" "c" "z"
 }
+
+func ExampleSortSlice() {
+	in := []struct {
+		start int
+		end   int
+	}{
+		{30, 40},
+		{10, 20},
+		{40, 50},
+		{20, 30},
+	}
+
+	order := SortSlice(in, func(i, j int) bool { return in[i].start < in[j].start })
+	fmt.Println(order)
+
+	for _, m := range order {
+		fmt.Printf("%v ", in[m])
+	}
+	fmt.Println()
+
+	// Output:
+	// [1 3 0 2]
+	// {10 20} {20 30} {30 40} {40 50}
+}
